@@ -62,7 +62,8 @@
 			margin: 0;
 		}
 
-		.text p {
+		.text p,
+		.item-td p {
 			font-weight: 400;
 			font-size: 14px;
 			line-height: 180%;
@@ -80,6 +81,16 @@
 			font-weight: 700;
 			text-decoration: none;
 			text-align: center;
+		}
+
+		.features-items-td td {
+			padding: 28px 0 0 0;
+		}
+
+		@media (max-width:540px) {
+			.features-items-td td {
+				display: block;
+			}
 		}
 	</style>
 </head>
@@ -176,8 +187,66 @@
 												</td>
 											</tr>
 
+											<tr>
+												<td class="features-td"
+													style="padding-top:0; padding-right:36px; padding-bottom:0; padding-left:36px;">
+													<table cellpadding="0" cellspacing="0" border="0" width="100%">
+														<tr>
+															<td class="features-items-td"
+																style="border-top:1px solid #D2D2D2">
+																<table cellpadding="0" cellspacing="0" border="0"
+																	width="100%">
+																	<tr>
+																		<td class="item-td" align="center">
+																			<img src="./images/features-img@x2-1.png"
+																				width="156" height="156"
+																				alt="feature-1">
+																			<p
+																				style="font-family: Arial, Arial, Helvetica, sans-serif, 'Open Sans';">
+																				Place an accent on <br /> your text
+																			</p>
+																		<td class="item-td" align="center">
+																			<img src="./images/features-img@x2-2.png"
+																				width="156" height="156"
+																				alt="feature-2">
+																			<p
+																				style="font-family: Arial, Arial, Helvetica, sans-serif, 'Open Sans';">
+																				Create neat <br /> announcements
+																			</p>
+																		<td class="item-td" align="center">
+																			<img src="./images/features-img@x2-3.png"
+																				width="156" height="156"
+																				alt="feature-3">
+																			<p
+																				style="font-family: Arial, Arial, Helvetica, sans-serif, 'Open Sans';">
+																				Peraonalize your <br /> designs
+																			</p>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
 
-											
+											<tr>
+												<td style="padding-top: 44px; padding-bottom: 52px;">
+													<table cellspacing="0" cellpadding="0" align="center" width="174">
+														<tr>
+															<td class="btn-link" align="center"
+																style="border-radius:4px; color:#ffffff; padding-top:16px; padding-right:28px; padding-bottom:16px; padding-left:28px; background-color:#3EA4ED;">
+																<a href="#">
+																	<span
+																		style="color:#ffffff; font-size:13px; font-weight:700; text-transform: uppercase;">
+																		start&nbsp;designing
+																	</span>
+																</a>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+
 										</table>
 									</td>
 								</tr>
